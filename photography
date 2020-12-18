@@ -1,0 +1,49 @@
+Need to Add
+  1. Side Navigation nav bar.
+  2. Upper Navigation Bar
+  3. transition effect  
+
+
+html structure:
+
+body
+  wrapper
+      navBar
+        a
+        img : logo
+        img: menu
+        /a
+      /navBar
+
+
+      header (for work)
+        h1:
+        p:
+      /header
+
+
+      work
+        img1
+        img2
+        img3
+      /work
+
+
+      header2 (for work2)
+        h1:
+        p:
+      /header2
+
+      work2
+        img1
+        img2
+      /work2
+
+
+      footer
+        span
+      /footer
+
+
+  /wrapper
+/body

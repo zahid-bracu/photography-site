@@ -1,0 +1,165 @@
+
+*{
+  margin: 0px;
+  padding: 0px;
+  border:none;
+  outline: none;
+  vertical-align: baseline;//default alignment
+  font-size: 100%;
+}
+html{
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  width: 100%;
+  background: #0E0E0E;
+}
+.wrapper{
+  width: 90%;
+  margin: 0 auto;
+}
+.navBar::after{
+  content: "";
+  clear: both;
+  display: table;
+}
+p{
+  color: #fff;
+  font-size: 16px;
+  font-weight: 300;
+}
+nav{
+  height: 70px;
+  line-height: 70px;
+}
+nav a img{
+  vertical-align: middle;
+  width: 35px;
+  height: 35px;
+
+  transition-property: all;
+  transition-duration: .4s;
+}
+nav a #apple{
+  display: inline-block;
+  float: left;
+  margin-top:10px;
+}
+nav a #menu{
+  display: inline-block;
+  float: right;
+  margin-top:10px;
+}
+/*Header*/
+header{
+  margin: 70px 0 80px 120px;
+}
+header p{
+  width: 50%;
+  margin-top:20px;
+}
+header h1{
+  color: #fff;
+  font-size: 48px;
+}
+/*work*/
+.work{
+  text-align: center;
+  width: 100%;
+
+}
+.work img{
+  margin: 1%;
+  width: 40%;
+  transition-property: all;
+  transition-duration: .4s;
+}
+.header2{
+  margin: 70px 0 80px 120px;
+}
+.header2 p{
+  width: 50%;
+  margin-top:10px;
+}
+.header2 h1{
+  color: #fff;
+  font-size: 48px;
+}
+/*work2*/
+.work2{
+  width: 100%;
+  text-align: center;
+}
+.work2 img{
+  margin: 1%;
+  width: 84%;
+}
+footer{
+  font-size: 20px;
+  text-align: center;
+  color: grey;
+  margin: 60px auto;
+}
+footer span{
+  margin: 0px 20px;
+}
+.work img:hover{
+  float: none;
+  transform: scale(1.03);
+  box-shadow: 5px 5px 10px rgb(36, 36, 36);
+  cursor: pointer;
+
+}
+nav a img:hover{
+  transform: scale(1.2);
+}
+
+
+/*Responsiveness*/
+
+@media only screen and (max-width:900px){
+  header{
+    text-align: left;
+    margin: 100px 0px 100px 30px;
+  }
+
+  header h1{
+    font-size: 36px;
+  }
+  header p{
+    font-size: 12px;
+    width: 90%;
+  }
+
+  .work img{
+    margin: 2%;
+    width: 90%;
+  }
+
+  .header2{
+    text-align: left;
+    margin: 50px 0px 50px 30px;
+  }
+
+  .header2 h1{
+    font-size: 36px;
+  }
+  .header2 p{
+    font-size: 12px;
+    width: 90%;
+  }
+  .work2 img{
+    margin: 2%;
+  }
+
+  footer{
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+}
+
+
+@media only screen and (max-width:500px){
+  
+}
